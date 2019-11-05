@@ -1,0 +1,19 @@
+.Active {
+  color: #cccccc;
+  text-shadow: 3px 4px 20px #cccccc;
+  padding: 20px;
+  border: 2px solid #424242;
+  border-radius: 15px;
+  margin: 0 10px;
+  box-sizing: border-box;
+  width: 700px; }
+
+.Question {
+  display: flex;
+  justify-content: space-between; }
+
+li {
+  list-style: none;
+  margin-left: 10px; }
+
+/*# sourceMappingURL=Activeqz.css.map */

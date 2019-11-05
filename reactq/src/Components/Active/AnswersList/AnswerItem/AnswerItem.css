@@ -1,0 +1,15 @@
+.AnswerItem {
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 5vh;
+  transition: .5s all;
+  user-select: none; }
+
+.AnswerItem:hover {
+  cursor: pointer;
+  box-shadow: 3px 4px 20px #65cc62;
+  letter-spacing: 1px;
+  background: rgba(204, 204, 204, 0.15); }
+
+/*# sourceMappingURL=AnswerItem.css.map */
