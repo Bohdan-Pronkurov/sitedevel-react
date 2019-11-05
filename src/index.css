@@ -10,3 +10,10 @@
   max-width: 1170px;
   margin: 0 auto;
 }
+
+.counter2 {
+  border: 1px solid #cccccc;
+  width: 200px;
+  margin: 1.2vh auto;
+}
+

@@ -5,10 +5,17 @@ import withClass from "../HOC/withClass";
 
 class Car extends React.Component {
 
+    constructor(props) {
+        super(props);
+        this.inputRef = React.createRef();
+
+    }
+
     componentDidMount() {
         if(this.props.index === 0) {
-            this.inputRef.focus();
+            this.inputRef.current.focus();
         }
+        
     }
 
     render()
@@ -32,7 +39,7 @@ class Car extends React.Component {
                     <p>Year: <b>{this.props.year}</b></p>
                     <input
                         ref = {
-                            (inputRef) => this.inputRef = inputRef
+                           this.inputRef
                         }
                         type="text"
                         onChange={this.props.onChangeName}
